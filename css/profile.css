@@ -1,0 +1,210 @@
+
+.details{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 50%;
+    height: 80vh;
+    margin-top: 30px;
+    background-color: #F1EFDC;
+    border-radius: 20px;
+}
+
+.details img{
+    margin: 10px;
+    width: 100px;
+    height: 80px;
+    margin-bottom: 20px;
+    border: 1px solid #42032C;
+    border-radius: 50%;
+    margin-right: 80px;
+}
+.details span.my-profile{
+    position: absolute;
+    padding: 100px  0;
+    left: 50%;
+    transform: translateX(-50%);
+    font-weight: bold;
+    color: #42032C;
+    font-size: 40px;
+    text-shadow: 0px 0px 20px #e7e7e3;
+    letter-spacing: 2px;
+    
+}
+
+.details h2,
+.details h3{
+    position: absolute;
+    top: 50%;
+    
+    transform: translateY(-50%);
+    color: #42032C;
+    font-size: 25px;
+    text-align: left;
+    margin-left: 25%;
+    padding-top: 5px;
+}
+.details h2{
+    padding-top: 90px;
+}
+.details h3{
+    padding-top: 160px;
+}
+.user-n{
+    font-weight: lighter;
+    color:#D36B00;
+    padding-left: 40px;
+}
+
+#productsincart{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    padding-top: 250px;
+    margin: 25px 0 0 5px;
+    font-weight: lighter;
+    font-size: 15px;
+    color: #42032C;
+}
+#favorite{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    padding-top: 350px;
+    margin: 0 0 0 5px;
+    font-weight: lighter;
+    font-size: 15px;
+    color: #42032C;
+}
+
+.number{
+    color: #b15b06;
+    text-shadow: 0 1px 2px #42032C;
+    margin: 0 5px;
+    
+    
+    padding: 2px;
+   
+}
+a.links{
+    
+    color: #42032C;
+}
+
+.details .edit{
+    position: absolute;
+    
+    width: 50%;
+    text-align: center;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 25px;
+    text-decoration: none;
+    height: auto;
+    color: #42032C;
+    border: 1px solid #42032C;
+    background-color: #e7e7e3;
+    border-radius: 10px;
+    bottom: 5px;
+
+}
+.details .edit:hover{
+    background-color: #D36B00;
+    color: #F1EFDC;
+    border: 0;
+}
+
+
+
+
+
+/*ـــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــ*/
+
+
+
+
+/* ــــــــــــــــــــMedia Queryـــــــــــــــــــــــــــ */
+
+/* mobile  */
+@media (max-width: 767px) {
+    
+    .details{
+        width: 85%;
+ 
+        
+    }
+    
+    .details img{
+        width: 80px;
+        height: 80px;
+       
+    }
+    .details span.my-profile{
+        font-size: 30px;       
+        letter-spacing: 1px;   
+    }
+    
+    .details h2,
+    .details h3{
+        font-size: 18px;
+        margin-left: 10%;
+    }
+
+}
+/* tablets  */
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .details{
+        width: 80%;
+ 
+        
+    }
+    
+    .details img{
+        width: 90px;
+        height: 90px;
+       
+    }
+    .details span.my-profile{
+        font-size: 35px;       
+        letter-spacing: 1px;   
+    }
+    
+    .details h2,
+    .details h3{
+        font-size: 19px;
+        margin-left: 10%;
+    }
+
+}
+/* laptop,desktop  */
+@media screen and (min-width:1024px) and (max-width:1280px) {
+
+    .details{
+        width: 70%;
+ 
+        
+    }
+    
+    .details img{
+        width: 100px;
+        height: 100px;
+       
+    }
+    .details span.my-profile{
+        font-size: 30px;       
+        letter-spacing: 2px;   
+    }
+    
+    .details h2,
+    .details h3{
+        font-size: 20px;
+        margin-left: 20%;
+    }
+}
+/* laptop,desktop for high resolutions */
+@media screen and (min-width:1370px) {
+   
+   
+   
+}

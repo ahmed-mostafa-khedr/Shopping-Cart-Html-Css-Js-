@@ -1,0 +1,184 @@
+
+.details{
+    position: absolute;
+   
+    
+    top: 50%;
+    left: 50%;
+    margin-top: 50px;
+    transform: translate(-50%,-50%);
+    width: 40%;
+    height: 80vh;
+    background-color: var(--main-color);
+    
+    border-radius: 20px;
+}
+.edit-form{
+    position: absolute;
+    width: 90%;
+    height: 90%;
+    margin-top: 20px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    background-color: #F1EFDC ;
+    padding: 20px;
+    border-radius:10px ;
+    z-index: 2;
+   
+}
+.details h2{
+    font-size: 30px;
+    letter-spacing: 2px;
+    color: #F1EFDC;
+    padding: 0 0 10px;
+    text-align: center;
+    padding-top: 5px;
+}
+form label{
+    display: block;
+    width: 100%;
+    color: #42032C;
+    margin-top: 20px;
+    text-align: left;
+    height: 35px;
+    line-height: 35px;
+    
+    font-weight: bold;
+    font-family: 'Oswald', sans-serif;
+    outline: 0;
+    padding-top: 10px;
+    
+}
+form input{
+    float: right;
+    width: 70%;
+    margin-right: 10px;
+    
+    height: 35px;
+    border: 1px solid var(--main-color);
+    padding: 5px ;
+    font-family: 'Oswald', sans-serif;
+    outline: 0;
+}
+
+/* .details label {
+    position: absolute;
+    right: 0;
+    
+} */
+
+
+
+
+form input[type=submit]{
+    position: absolute;
+    font-size: 25px;
+    bottom: 5px;
+    height: auto;
+    cursor: pointer;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 10px;
+    background-color: #42032C;
+    color: #F1EFDC;
+    border: 0;
+}
+form input[type=submit]:hover{
+    background-color: #D36B00;
+    
+}
+
+
+/* ــــــــــــــــــــMedia Queryـــــــــــــــــــــــــــ */
+
+/* mobile  */
+@media (max-width: 767px) {
+    
+    .details{
+        width: 85% ;
+        
+        
+    }
+
+    .details h2{
+        font-size: 25px;
+    }
+    form label{
+     font-size: 15px;
+     margin-left: -12px;
+    }
+    form input{
+
+        width: 60%;
+        margin-right: 0;
+        
+
+    }
+    
+    form input[type=submit]{
+        font-size: 20px;  
+    }
+
+}
+/* tablets  */
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .details{
+        width: 75% ;
+      
+        
+    }
+
+    .details h2{
+        font-size: 30px;
+    }
+    form label{
+     font-size: 20px;
+     margin-left: -12px;
+    }
+    form input{
+
+        width: 65%;
+        margin-right: 0;
+        
+
+    }
+    
+    form input[type=submit]{
+        font-size: 25px;  
+    }
+
+
+}
+/* laptop,desktop  */
+@media screen and (min-width:1024px) and (max-width:1280px) {
+
+    .details{
+        width: 70% ;
+      
+        
+    }
+
+    .details h2{
+        font-size: 30px;
+    }
+    form label{
+     font-size: 20px;
+     margin-left: -12px;
+    }
+    form input{
+
+        width: 70%;
+        margin-right: 0;
+        
+
+    }
+    
+    form input[type=submit]{
+        font-size: 25px;  
+    }
+
+
+
+}

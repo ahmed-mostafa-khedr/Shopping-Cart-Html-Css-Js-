@@ -1,0 +1,9 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --main-color:#42032C;
+    --main-font-family: 'Oswald', sans-serif;
+}

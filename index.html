@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping Cart | Home Page</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/master.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/fontawesome.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500&family=Oswald:wght@400;500&family=Work+Sans:wght@200;400;500;600;700;800&display=swap" >
+</head>
+<body>
+
+    <!-- ــــــــــــــــــــــheaderــــــــــــــــ -->
+
+    <header>
+    <div class="container">
+        <div class="header-container">
+        <a href="index.html" class="brand">    <i class="fa-solid fa-cart-arrow-down logo"></i> Shoping Cart</a>
+        
+        <nav>
+            <ul id="links">
+                <li><a href="login.html">sign in</a></li>
+                <li><a href="register.html"> sign up</a></li>
+            </ul>
+            
+            <ul id="user-info">
+                <li><a href="profile.html" id="user"></a></li>
+                
+                <li class="shopping-cart">
+                    <i class="fa-solid fa-cart-arrow-down cart-header" >
+                </i>
+                
+                <span class="badge"></span>
+                <div class="item-name">
+                    <span class="added"></span>
+                    <a class="view-all-products" href="cartproducts.html">View All Products</a>
+                </div>
+                
+                <li class="star">
+                    <a href="favorite.html"><i class="fa-solid fa-star" ></i></a>
+                </li> 
+                
+                <li><a href="#" id="logout">logout</a></li>
+                <i class="fa-solid fa-right-from-bracket log-out"></i>
+            </ul>
+        </nav>
+        
+        </div>
+    </div>
+</header>
+
+
+<!-- ــــــــــــــــــــــMain Productsـــــــــــــــــــــــــــــ -->
+<section class="home">
+    <div class="container">
+        
+        <!-- search-box -->
+        <div class="search-box">
+            <i class="fa-solid fa-magnifying-glass s">  </i>
+            <input type="search" placeholder=" |  Search About Product Name..." class="search-bar">
+        </div>
+
+        <!-- filter-box -->
+        <div class="filter">
+            
+            <select id="price-filter" >
+                <option value="" hidden >filter by price</option>
+                <option value="All" >All</option>
+                <option value="0 : 1000.EGP" >0 : 1000.EGP</option>
+                <option value="1000 : 2000.EGP" >1000 : 2000.EGP</option>
+                <option value="More Than  2000.EGP" >More Than  2000.EGP</option>
+            </select>
+        </div>
+
+        <!-- Products-->
+        <div class="products"></div>
+        
+        
+
+    </div>
+    
+</section>
+
+
+
+
+
+
+<script src="/js/main.js"></script> 
+</body>
+</html>

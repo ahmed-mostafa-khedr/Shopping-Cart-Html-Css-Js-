@@ -1,0 +1,131 @@
+
+.item-details{
+    width: 100%;
+    position: relative;
+    margin: auto;
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #e7e7e3;
+}
+.item-details .images{
+    width: 100% ;
+    background-color: white;
+    display: flex;
+    padding-top: 20px;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.item-details img{
+max-width: 200px;
+max-height: 300px;
+padding: 5px;
+
+}
+.item-details h1{
+text-align: center;
+font-size: 50px;
+color: #42032C;
+text-shadow: 1px 2px 5px black;
+
+}
+.item-details p{
+text-align: center;
+padding: 20px 5px;
+color: #42032cab;
+
+}
+.item-details p.more{
+text-align: left;
+padding: 20px 5px;
+color: #D36B00;
+font-weight: bold;
+
+}
+.item-details li{
+    margin-left: 150px;
+    color: #42032c9c;
+    
+}
+.item-details span {
+font-size: 20px;
+padding: 20px 5px;
+color: #D36B00;
+font-weight: bold;
+}
+.item-details span span{
+    font-size: 15px;
+    font-style: italic;
+font-weight: lighter;
+padding: 20px 5px;
+color: red;
+}
+.item-details span sup{
+
+padding: 20px 5px;
+color: var(--main-color);
+}
+
+/*ـــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــ*/
+
+
+
+
+/* ــــــــــــــــــــMedia Queryـــــــــــــــــــــــــــ */
+
+/* mobile  */
+@media (max-width: 767px) {
+    
+  
+    .item-details img{
+        width: 20%;
+        max-height: 100px;
+        }
+        .item-details h1{
+            font-size: 30px;
+            }
+            .item-details p{
+            font-size: 15px;
+            }
+            .item-details p.more{
+
+            padding: 10px 5px;
+            }
+}
+/* tablets  */
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+   
+    .item-details img{
+        width: 20%;
+        max-height: 150px;
+        }
+        .item-details h1{
+            font-size: 30px;
+            }
+            .item-details p{
+            font-size: 17px;
+            }
+            .item-details p.more{
+
+            padding: 13px 5px;
+            }
+}
+/* laptop,desktop  */
+@media screen and (min-width:1024px) and (max-width:1280px) {
+   
+    .item-details img{
+        width: 20%;
+        max-height: 200px;
+        }
+        .item-details h1{
+            font-size: 35px;
+            }
+            .item-details p{
+            font-size: 23px;
+            }
+            .item-details p.more{
+
+            padding: 20px 5px;
+            }
+    
+}
